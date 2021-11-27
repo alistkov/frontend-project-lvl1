@@ -14,8 +14,19 @@ const calculateExpression = (first, second, operation) => {
   return first * second;
 };
 
+const gcd = (first, second) => {
+  if (second > first) {
+    return gcd(second, first);
+  }
+  if (!second) {
+    return first;
+  }
+  return gcd(second, first % second);
+};
+
 export {
   isEven,
   getRandomNumber,
   calculateExpression,
+  gcd,
 };
