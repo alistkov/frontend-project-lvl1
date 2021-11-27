@@ -8,3 +8,6 @@
 
 ## brain-calc
 [![asciicast](https://asciinema.org/a/450728.svg)](https://asciinema.org/a/450728)
+
+## brain-gcd
+[![asciicast](https://asciinema.org/a/8yJ06t4dW6GwzGpI7p6tvAjNA.svg)](https://asciinema.org/a/8yJ06t4dW6GwzGpI7p6tvAjNA)
