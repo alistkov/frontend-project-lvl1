@@ -35,10 +35,21 @@ const makeProgression = () => {
   return progression;
 };
 
+const isPrime = (number) => {
+  let dividers = 0;
+  for (let i = 1; i <= number; i += 1) {
+    if (number % i === 0) {
+      dividers += 1;
+    }
+  }
+  return dividers <= 2;
+};
+
 export {
   isEven,
   getRandomNumber,
   calculateExpression,
   gcd,
   makeProgression,
+  isPrime,
 };
